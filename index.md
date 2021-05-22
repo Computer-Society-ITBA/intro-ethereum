@@ -1,15 +1,14 @@
 ---
 layout: default
-title:  "Curso Web Backend"
-description: "Curso de desarrollo de APIs REST con Django de Computer Society ITBA"
+title:  "Workshop Ethereum"
+description: "Introducción a Ethereum y Smart Contracts de Computer Society ITBA y Open Zepellin"
 principal: true
 active: true
 ---
 
-## Bienvenidos al Curso de Web Backend
+## Bienvenidos al Workshop sobre Ethereum y Smart Contracts.
 
-La idea de este curso es aprender a construir una API REST en Django desde cero. Durante el curso vamos a construir una API Bancaria, en donde uno puede registrarse en nuestro banco, ingresar dinero y transferirle a otras personas.
-
+La idea de este workshop es lograr entender las ideas básicas de la red de Ethereum y el funcionamiento de los smart contracts. Para eso, vamos a realizar un ejemplo práctico en el que veamos implementado un Smart Contract en la red. 
 ### Temas
 
 Podés encontrar una lista de todos los temas que se van a discutir durante el cursó [acá](clases/clase-temas.md).
