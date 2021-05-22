@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  <head>
+
+    {% if site.google_analytics %}
+      <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
+      <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', '{{ site.google_analytics }}');
+      </script>
+    {% endif %}
+    <meta charset="UTF-8">
+
+{% seo %}
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#157878">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <link rel="shortcut icon" type="image/x-icon" href="{{ '/favicon.ico'  | absolute_url }}">
+    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+  </head>
+  <body>
+    <!-- <a id="skip-to-content" href="#content">Skip to the content.</a> -->
+
+    <header class="page-header" role="banner">
+      <h1 class="project-name">
+        {% if page.principal %}
+          {{ page.title | default: site.title | default: site.github.repository_name }}
+        {% endif %}
+        {% if page.principal == false %}
+          <a class="project-name-link" href="#content">{{ page.title | default: site.title | default: site.github.repository_name }}</a>
+        {% endif %}
+      </h1>
+      <h2 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
+      {% if page.principal %}
+        {% if site.github.is_project_page %}
+          <a href="{{ site.github.repository_url }}" class="btn">Ver en GitHub</a>
+        {% endif %}
+        {% if site.show_downloads %}
+          <a href="{{ site.github.zip_url }}" class="btn">Download .zip</a>
+          <a href="{{ site.github.tar_url }}" class="btn">Download .tar.gz</a>
+        {% endif %}
+      {% endif %}
+      {% if page.principal == false %}
+        <a href="{{ "/" | absolute_url }}" class="btn">Inicio</a>
+      {% endif %}
+    </header>
+
+    <main id="content" class="main-content" role="main">
+      {% if page.active == false %}
+        <h2>Esta clase todavía no está activa</h2>
+      {% endif %}
+      {% if page.active == true %}
+        {{ content }}
+      {% endif %}
+
+      <footer class="site-footer">
+        {% if site.github.is_project_page %}
+          <span class="site-footer-owner"><a href="{{ site.github.repository_url }}">{{ site.github.repository_name }}</a> es mantenido por <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a>.</span>
+        {% endif %}
+        <span class="site-footer-credits">Esta página fue generada con <a href="https://pages.github.com">GitHub Pages</a>.</span>
+        <span class="site-footer-credits">Se están recolectando datos con Google Analytics para poder optimizar la experiencia de los usuarios.</span>
+      </footer>
+    </main>
+  </body>
+</html>
