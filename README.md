@@ -1,5 +1,5 @@
-# curso-web-backend
-Repositorio para el Curso de Web Backend de Computer Society ITBA. Continene las diferentes clases del curso y el material necesario.
+# Introducción a Ethereum y Smart Contracts
+Repositorio para el Workshop "Introducción a Ethereum y Smart Contracts" de Computer Society ITBA. Continene las diferentes secciones del workshop y el material necesario.
 
 ### Structure
 
