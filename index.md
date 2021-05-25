@@ -6,9 +6,9 @@ principal: true
 active: true
 ---
 
-## Bienvenidos al Workshop sobre Ethereum y Smart Contracts.
+## Bienvenidos al Curso sobre Ethereum y Smart Contracts.
 
-La idea de este workshop es lograr entender las ideas básicas de la red de Ethereum y el funcionamiento de los smart contracts. Para eso, vamos a realizar un ejemplo práctico en el que veamos implementado un Smart Contract en la red. 
+La idea de este curso es lograr entender las ideas básicas de la red de Ethereum y el funcionamiento de los smart contracts. Para eso, vamos a realizar un ejemplo práctico en el que veamos implementado un Smart Contract en la red. 
 ### Temas
 
 Podés encontrar una lista de todos los temas que se van a discutir durante el cursó [acá](clases/clase-temas.md).
@@ -24,8 +24,6 @@ Antes de comenzar con el curso, te recomendamos que te fijes la [lista de herram
 Estas son las clases que ya están disponibles (antes de cada clase se va a activar el link correspondiente):
 - [Clase 1](clases/clase-1.md)
 - [Clase 2](clases/clase-2.md)
-- [Clase 3](clases/clase-3.md)
-- [Clase 4](clases/clase-4.md)
 
 ### Requests
 
