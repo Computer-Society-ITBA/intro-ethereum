@@ -1,6 +1,6 @@
 ---
 layout: default
-title:  "Workshop Ethereum"
+title:  "Introducción sobre Ethereum y Smart Contracts" 
 description: "Introducción a Ethereum y Smart Contracts de Computer Society ITBA y Open Zepellin"
 principal: true
 active: true
